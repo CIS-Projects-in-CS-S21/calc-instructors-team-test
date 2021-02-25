@@ -32,7 +32,12 @@ public class CalculatorModelTest {
 	@Test
 	public void shouldDivTwoByOne(){
 		assertEquals(2.0, calc.operationDiv(2.0, 1.0), 0.1);
-	} 
+	}
+
+	@Test
+	public void  shouldAddTwoAndThree(){
+		assertEquals(5.0,calc.operationAdd(2,3),0.1);
+	}
 
 	
 

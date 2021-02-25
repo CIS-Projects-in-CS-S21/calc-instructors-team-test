@@ -34,7 +34,9 @@ public class CalculatorModelTest {
 		assertEquals(2.0, calc.operationDiv(2.0, 1.0), 0.1);
 	} 
 
-	
+	@Test
+	public void shouldSubtractTwoFromFive() {
+		assertEquals(3.0, calc.operationSubst(5.0, 2.0), 0.1);
 
-
+	}
 }
